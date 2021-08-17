@@ -14,4 +14,12 @@ spring:
         uri: http://localhost:8082/
         predicates:
         - Path=/loans/**
+      - id: employeeModule
+        uri: http://localhost:8084/
+        predicates:
+        - Path=/employees/**
+      - id: userModule
+        uri: http://localhost:8083/
+        predicates:
+        - Path=/users/**
         
