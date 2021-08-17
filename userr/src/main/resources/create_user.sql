@@ -28,5 +28,5 @@ insert into skill values (2001, "Java");
 insert into user values(5000, "user1", "random");
 insert into user values(5000, "user2", "random2");
 
-insert into user_roles values(90,91);
-insert into user_roles values(92,93);
+insert into user_role values(90,91);
+insert into user_role values(92,93);
